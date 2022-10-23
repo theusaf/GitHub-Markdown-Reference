@@ -2,3 +2,5 @@
 It contains a collection of information from various places.
 
 See https://github.com/theusaf/GitHub-Markdown-Reference/issues/1 for the actual reference.
+
+A random edit
