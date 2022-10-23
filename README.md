@@ -203,6 +203,11 @@ Here is a footnote reference,[^1][^2] and another.[^named]
 [^named]: Here is a 'named' footnote.
 ```
 Here is a footnote reference,[^1][^2] and another.[^named]
+* Head to [bottom](#bottom) to see the footnotes.
+
+[^1]: Here is a number footnote.
+[^2]: Here is another number footnote.
+[^named]: Here is a 'named' footnote.
 
 [^1]: Here is a number footnote.
 [^2]: Here is another number footnote.
@@ -213,12 +218,14 @@ Here is a footnote reference,[^1][^2] and another.[^named]
 
 ### Linking lines of code
 ```markdown
-https://github.com/theusaf/explainXKCDBot/blob/master/index.js#L1-L8
-https://github.com/theusaf/explainXKCDBot/blob/master/index.js?plain=1#L1-L8
+https://github.com/theusaf/GitHub-Markdown-Reference/blob/751507eb800d337bd1cd8e09bf18d54bae615cdc/README.md#L1
+
+https://github.com/theusaf/GitHub-Markdown-Reference/blob/751507eb800d337bd1cd8e09bf18d54bae615cdc/README.md?plain=1#L1-L5
 ```
 Results in:
-![image](https://user-images.githubusercontent.com/32113157/197420488-98c05232-7edc-4093-a6f7-51e09e159a67.png)
-* Only applies to files in the same repository.
+https://github.com/theusaf/GitHub-Markdown-Reference/blob/751507eb800d337bd1cd8e09bf18d54bae615cdc/README.md#L1
+
+https://github.com/theusaf/GitHub-Markdown-Reference/blob/751507eb800d337bd1cd8e09bf18d54bae615cdc/README.md?plain=1#L1-L5
 
 ### Directives
 * See https://github.com/community/community/discussions/16925
@@ -229,7 +236,6 @@ Results in:
 
 > **Note**
 > This is a note.
-> ![image](https://user-images.githubusercontent.com/32113157/197418781-fbf567d8-79d3-4d01-8de0-9328359228e2.png)
 
 
 ```markdown
@@ -239,15 +245,16 @@ Results in:
 
 > **Warning**
 > This is a warning.
-> ![image](https://user-images.githubusercontent.com/32113157/197418810-89715336-1fd3-4ad3-ae5f-8446d7bb0460.png)
 
 ### Checkboxes
 ```markdown
 - [ ] Example task 1
 * [ ] Example task 2
-+ [x] Example task 3 (checked!)
++ [x] Example task 3
 ```
 
 - [ ] Example task 1
 * [ ] Example task 2
-+ [x] Example task 3 (checked!)
++ [x] Example task 3
+
+<a name="bottom"></a>
